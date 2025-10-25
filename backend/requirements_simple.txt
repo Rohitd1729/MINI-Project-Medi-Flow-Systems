@@ -1,0 +1,20 @@
+# Simplified requirements - using latest compatible versions
+# These will install pre-built wheels (no compilation needed)
+
+Flask>=2.3.0
+Flask-SQLAlchemy>=3.0.0
+psycopg2-binary>=2.9.0
+bcrypt>=4.0.0
+PyJWT>=2.8.0
+Flask-CORS>=4.0.0
+reportlab>=4.0.0
+pandas>=2.0.0
+
+# NLP and ML libraries - using versions compatible with Python 3.13
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.20.0
+scikit-learn>=1.3.0
+nltk>=3.8.0
+
+# spaCy - install separately with pre-built wheel
+# Run: pip install spacy --no-build-isolation

@@ -1,0 +1,348 @@
+# Medi-Flow Systems - .gitignore
+
+# ========================================
+# Python / Flask Backend
+# ========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ========================================
+# Node.js / React Frontend
+# ========================================
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/frontend/build
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================================
+# Database
+# ========================================
+
+# PostgreSQL
+*.sql
+*.dump
+*.backup
+
+# SQLite (if used for testing)
+*.db
+*.sqlite
+*.sqlite3
+
+# Database migrations (keep structure, ignore data)
+# migrations/versions/*.pyc
+
+# ========================================
+# Uploads / User Files
+# ========================================
+
+# Uploaded prescription files
+backend/uploads/prescriptions/*
+!backend/uploads/prescriptions/.gitkeep
+
+# Any other uploads
+uploads/*
+!uploads/.gitkeep
+
+# ========================================
+# IDE / Editor
+# ========================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ========================================
+# OS
+# ========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========================================
+# Configuration Files (Sensitive)
+# ========================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Configuration files with secrets
+config.py
+config.local.py
+secrets.json
+credentials.json
+
+# Database connection strings
+database.ini
+
+# ========================================
+# Logs
+# ========================================
+
+# All log files
+*.log
+logs/
+*.log.*
+
+# ========================================
+# Temporary Files
+# ========================================
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Cache
+.cache/
+*.cache
+
+# ========================================
+# Documentation (Optional - Keep if needed)
+# ========================================
+
+# Uncomment if you don't want to track these
+# docs/screenshots/
+# *.pdf
+
+# ========================================
+# Project Specific
+# ========================================
+
+# Flask migrations (keep structure, ignore cache)
+backend/migrations/__pycache__/
+
+# React build artifacts
+frontend/.eslintcache
+
+# Package lock files (optional - some prefer to keep these)
+# package-lock.json
+# yarn.lock
+
+# Test files
+test_*.py
+*_test.py
+
+# Backup files
+*.backup
+*.old
+
+# ========================================
+# Security
+# ========================================
+
+# Private keys
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# JWT secrets
+jwt_secret.txt
+
+# API keys
+api_keys.txt
+
+# ========================================
+# Keep These Files
+# ========================================
+
+# Keep empty directories
+!.gitkeep
+
+# Keep README files
+!README.md
+!*/README.md
+
+# Keep requirements
+!requirements.txt
+
+# Keep package.json
+!package.json
+
+# ========================================
+# End of .gitignore
+# ========================================

@@ -478,21 +478,79 @@ Bot:
 
 ## 📸 Screenshots
 
-### Dashboard
-![Dashboard](docs/screenshots/dashboard.png)
+### Customer Portal
+
+#### Customer Login
+![Customer Login](docs/Customer%20Login.png)
+*Secure authentication for customers*
+
+#### Product Catalog
+![Product Catalog](docs/Customer%20Portal.png)
+*Browse medicines with OTC/Rx classification*
+
+#### Shopping Cart
+![Shopping Cart](docs/Shopping%20Cart.png)
+*Add, update, and remove items with real-time totals*
+
+#### Checkout Process
+![Checkout Page](docs/Checkout%20Page.png)
+*Multi-step checkout with prescription upload for Rx medicines*
+
+#### Place Order
+![Place Order](docs/Place%20Order%20page%20.png)
+*Review order details before confirmation*
+
+#### Order Confirmation
+![Order Confirmation](docs/Order%20Placed%20Successfully!.png)
+*Successful order placement with order details*
+
+#### My Orders
+![My Orders](docs/My%20Orders.png)
+*View order history and track status*
+
+### Staff Portal
+
+#### Staff Login
+![Staff Login](docs/Staff%20Login%20Page%20.png)
+*Secure authentication for staff members*
+
+#### Dashboard
+![Dashboard](docs/Dashboard.png)
 *Real-time analytics and key metrics*
 
-### Medicine Inventory
-![Medicine Inventory](docs/screenshots/inventory.png)
+#### Medicine Inventory
+![Medicine Inventory](docs/Medicine%20Inventory.png)
 *Full CRUD operations with edit and delete functionality*
 
+#### Edit Medicine
+![Edit Medicine](docs/Edit%20Medicine.png)
+*Comprehensive medicine editing interface*
+
+#### Online Customer Orders
+![Online Orders](docs/Online%20Customer%20Orders.png)
+*Manage all customer orders in one place*
+
 ### AI Chatbot
-![Chatbot](docs/screenshots/chatbot.png)
+
+#### Chat Interface
+![Chatbot](docs/Chatbot/Chatbot%20.png)
 *Beautiful UI with quick action buttons and formatted responses*
 
-### Sales Management
-![Sales](docs/screenshots/sales.png)
-*Streamlined billing and sales tracking*
+#### View Cart
+![View Cart](docs/Chatbot/Chatbot%20View%20Cart.png)
+*Check cart contents via chat commands*
+
+#### Track Order
+![Track Order](docs/Chatbot/Chatbot%20Track%20my%20order%20.png)
+*Track order status through chat*
+
+#### Reorder from Last Order
+![Reorder](docs/Chatbot/Chatbot%20reorder%20from%20last%20order.png)
+*Quickly reorder previous purchases*
+
+#### Order with Prescription
+![Order with Prescription](docs/Chatbot/Chatbot%20order%20with%20prescription.png)
+*Place orders with prescription uploads via chat*
 
 ## 🎓 Academic Project Highlights
 
